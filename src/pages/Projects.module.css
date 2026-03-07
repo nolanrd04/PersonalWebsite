@@ -1,0 +1,85 @@
+.projects {
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.intro {
+  color: var(--text-muted);
+  font-size: 1.0625rem;
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.description {
+  flex-grow: 1;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent-red);
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all var(--transition);
+  width: fit-content;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--accent-red-glow);
+  transform: translateX(4px);
+}
+
+.button:active {
+  transform: translateX(2px);
+}
+
+/* Tablet/Desktop */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .card {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card:nth-child(3) {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}

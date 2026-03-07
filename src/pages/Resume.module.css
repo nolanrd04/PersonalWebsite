@@ -1,0 +1,79 @@
+.resume {
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.downloadSection {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.downloadButton {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background-color: var(--accent-red);
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all var(--transition);
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(229, 62, 62, 0.3);
+}
+
+.downloadButton:hover {
+  background-color: var(--accent-red-glow);
+  box-shadow: 0 0 40px rgba(255, 68, 68, 0.5);
+  transform: translateY(-2px);
+}
+
+.downloadButton:active {
+  transform: translateY(0);
+}
+
+.embedContainer {
+  margin-top: 3rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pdfEmbed {
+  width: 100%;
+  height: 800px;
+  border: none;
+  display: block;
+}
+
+.fallback {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+}
+
+.fallback a {
+  color: var(--accent-red);
+  text-decoration: underline;
+}
+
+.fallback a:hover {
+  color: var(--accent-red-glow);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pdfEmbed {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pdfEmbed {
+    height: 1000px;
+  }
+}
