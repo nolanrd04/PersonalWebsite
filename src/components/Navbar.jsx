@@ -12,7 +12,7 @@ export default function Navbar() {
     { path: '/', label: 'Home' },
     { path: '/projects', label: 'Projects' },
     { path: '/polygon', label: 'Polygon' },
-    { path: '/tesseract', label: 'Tesseract' },
+    { path: '/tesseract', label: 'Tesseract Mod' },
     { path: '/youtube', label: 'YouTube' },
     { path: '/resume', label: 'Resume' },
   ];
