@@ -9,8 +9,8 @@ export default function Resume() {
 
           <div className={styles.downloadSection}>
             <a
-              href="/Resume_March2026.pdf"
-              download="Resume_Nolan_Reyes.pdf"
+              href="/Resume.pdf"
+              download="Resume_Nolan_DeSchryver.pdf"
               className={styles.downloadButton}
             >
               Download PDF
@@ -19,8 +19,8 @@ export default function Resume() {
 
           <div className={styles.embedContainer}>
             <iframe
-              src="/Resume_March2026.pdf"
-              title="Resume - Nolan Reyes"
+              src="/Resume.pdf"
+              title="Resume - Nolan DeSchryver"
               className={styles.pdfEmbed}
             />
           </div>
@@ -28,7 +28,7 @@ export default function Resume() {
           <div className={styles.fallback}>
             <p>
               If the PDF doesn't display above, you can{' '}
-              <a href="/Resume_March2026.pdf" download="Resume_Nolan_Reyes.pdf">
+              <a href="/Resume.pdf" download="Resume_Nolan_DeSchryver.pdf">
                 download the resume here
               </a>
               .
