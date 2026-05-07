@@ -7,6 +7,7 @@ import Polygon from './pages/Polygon';
 import Tesseract from './pages/Tesseract';
 import YouTube from './pages/YouTube';
 import Resume from './pages/Resume';
+import PromptHub from './pages/PromptHub';
 import './styles/globals.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/tesseract" element={<Tesseract />} />
             <Route path="/youtube" element={<YouTube />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/projects/PromptHub" element={<PromptHub />} />
           </Routes>
         </main>
         <Footer />

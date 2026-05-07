@@ -39,8 +39,8 @@ export default function Home() {
           <h2>About Me</h2>
           <div className={styles.aboutContent}>
             <p>
-              I'm a software developer and content creator focused on building innovative applications and games. With expertise in Data Analytics, Machine Learning, Content Creation, and full-stack development, I enjoy tackling complex technical challenges and sharing my knowledge through my YouTube channels.
-              I am a senior Computer Science student and Grand Canyon University with an emphasis in Big Data Analytics
+              I'm a software Developer, Data Analyst, and Content Creator focused on building innovative applications and games. With expertise in Data Analytics, Machine Learning, Content Creation, and full-stack development, I enjoy tackling complex technical challenges and sharing my knowledge through my YouTube channels.
+              I Graduated from Grand Canyon University with a Bachelor's degree in Computer Science with an emphasis in Big Data Analytics (machine learning + AI).
             </p>
             <p>
               My work spans various domains including Game Design through Terraria modding and Game Development,
@@ -49,7 +49,12 @@ export default function Home() {
             </p>
             <div className={styles.highlightBox}>
               <p>
-                <strong>Currently working on:</strong> Software projects, neural network applications, the Polygon rogue-like game, and the Tesseract Mod for Terraria.
+                <strong>Currently working on:</strong> Data Engineer intern for Terra Underground, Polygon rogue-like game, and the Tesseract Mod for Terraria.
+              </p>
+            </div>
+            <div className={styles.highlightBox}>
+              <p>
+                <strong>Previous projects:</strong> Software projects, neural network applications, AWS cloudathon.
               </p>
             </div>
           </div>

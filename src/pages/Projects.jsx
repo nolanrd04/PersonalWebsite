@@ -7,9 +7,9 @@ export default function Projects() {
       id: 1,
       title: 'Prompt Hub',
       description: 'My most prized project! This is an internal application for the use of Paychex employees. It allows them to manage their LLM prompts all in one spot! The design is effective but intuitve for everyone to use.',
-      link: 'https://youtu.be/_0fgf3qpklE',
-      label: 'Watch Showcase',
-      isExternal: true,
+      link: '/projects/PromptHub',
+      label: 'View Showcase',
+      isExternal: false,
       category: 'Software',
     },
     {
