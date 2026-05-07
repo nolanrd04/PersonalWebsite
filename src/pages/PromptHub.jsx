@@ -23,7 +23,7 @@ const features = [
     image: '/assets/images/prompthub/versioncontrol.png',
     title: 'Version Control',
     description:
-      'This page allows users to control the various versions of their prompt. Here, they can view diffs (changes) or revert to previous states. Think GitHub — but for prompts!',
+      'This page allows users to control the various versions of their prompt. Here, they can view diffs (changes) or revert to previous states. Think GitHub, but for prompts!',
   },
   {
     image: '/assets/images/prompthub/sharing.png',
