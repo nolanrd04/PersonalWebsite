@@ -18,7 +18,7 @@ export default function Polygon() {
             rel="noopener noreferrer"
             className={styles.demoButton}
           >
-            Try Demo (PC Only)
+            Try Demo (PC and MOBILE!)
           </a>
         </div>
       </section>
