@@ -1,0 +1,27 @@
+| Group | Work type | Qty | Units | Basis |
+|---|---|---:|---|---|
+| GRADING | TOTAL AREA - ROW | 88,587.9 | SF | V-ROW lines closed by X-ROW (x=0) and the east phase line |
+| ROADS | 2/4" PAVING | 6,159.8 | SY | C-RD-ASPH-HATCH area 55,437.9 SF / 9 |
+| ROADS | ROAD SUBGRADE | 6,833.1 | SY | asphalt + 2' curb band (firm conventions vary, e.g. +1' behind curb) |
+| ROADS | CURB AND GUTTER | 3,030.2 | LF | C-RD-CURB-LIP length (back-of-curb line = 3,030.2 LF) |
+| ROADS | 4" SIDEWALKS | 13,002.5 | SF | C-RD-WALK-HATCH 15,151.0 SF minus approach overlap |
+| ROADS | 6" SIDEWALKS | 2,148.5 | SF | sidewalk under driveway approaches (thickened) |
+| ROADS | APPROACH | 3,024.0 | SF | 27 x DWY-APRN-16 (16'x7') on C-RD-APRN |
+| ROADS | PED RAMPS | 4 | EA | ADA-RAMP-DOME inserts on C-RD-RAMP |
+| ROADS | MAILBOX PAD | 32 | SF | 1 x CBU-PAD-8x4 |
+| SEWER | 48" MANHOLES | 7 | EA | SSMH-48 inserts on SAN-MH |
+| SEWER | CONNECT TO EXISTING SEWER | 1 | EA | EX-MH on X-SAN-MH + label |
+| SEWER | SEWER MAIN ( 8" ) - 7'-11' DEPTH | 1,474.0 | LF | SAN-MAIN, MH center-to-center incl. run to EX MH; all MH depths 8.2-10.9' (RIM-IE labels) |
+| SEWER | SEWER SERVICES ( 4" ) | 27 | EA | one SAN-SVC + SAN-CLEANOUT per lot |
+| WATER | TIE INTO EXIST WATER | 1 | EA | TAP-SLEEVE-12x8 |
+| WATER | WATERMAIN ( 8" ) | 1,488.0 | LF | PR-WTR-MAIN (hydrant laterals on PR-WTR-HYD-LAT excluded) |
+| WATER | 8" TEE | 1 | EA | TEE-8x8 |
+| WATER | 8" VALVE | 4 | EA | GATE-VALVE inserts (1 at tie-in + 3 at tee) |
+| WATER | FH | 3 | EA | FIRE-HYDRANT inserts |
+| WATER | BLOW OFF ASSEMBLIES | 2 | EA | BLOWOFF-2IN at both dead ends |
+| WATER | WATER SERVICES ( 1" ) | 27 | EA | one PR-WTR-SVC + WTR-METER-1IN per lot |
+| STORM | SINGLE DRYWELL | 6 | EA | DRYWELL-TYPE-A inserts |
+| EXTRAS | INLET PROTECTION | 6 | EA | one per drywell inlet |
+| EXTRAS | TYPE III BARRACADE | 1 | EA | east end, future extension |
+| EXTRAS | CONSTRUCTION ENTRANCE | 1 | EA | CONST-ENTRANCE block |
+| EXTRAS | SAW CUTTING | 36.0 | LF | C-RD-SAWCUT at existing edge of pavement |

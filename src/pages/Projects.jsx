@@ -13,6 +13,15 @@ export default function Projects() {
       category: 'Software',
     },
     {
+      id: 6,
+      title: 'AI Agents',
+      description: 'A showcase of the AI agents I have built to automate real-world workflows. See what each agent does, how it works, and the results it produces.',
+      link: '/projects/AiAgents',
+      label: 'View Showcase',
+      isExternal: false,
+      category: 'Software',
+    },
+    {
       id: 2,
       title: 'Neural Network Projects',
       description: 'A comprehensive portfolio of machine learning projects exploring neural networks, deep learning, and AI applications. See implementations and research across multiple domains.',

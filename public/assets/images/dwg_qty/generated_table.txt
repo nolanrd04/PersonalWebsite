@@ -1,0 +1,31 @@
+Group	Work type	Unit	QTY	Notes
+MOB	LS	1	Standard row, not drawn
+GRADING	TOTAL AREA - ROW	SF	88,587	60' right-of-way lines (V-ROW). I closed the open ends myself at the Hollis Rd right-of-way (west) and the future-extension end (east). Includes the Aster Ct cul-de-sac.
+GRADING	ROW STRIPPING - (SPECIFY DEPTH)	CY	4,922	Assumes 18" (your usual median). Each 1" of depth = 273 CY. Drawing gives no depth.
+SEWER	48" MANHOLES	EA	7	SSMH-1 to 7; the block and labels both say 48"
+SEWER	CONNECT TO EXISTING SEWER	EA	1	Existing manhole on Hollis Rd, labelled "CONNECT TO EX. SSMH"
+SEWER	SEWER MAIN ( 8" ) - 7'-11' DEPTH	LF	1,474	Labelled 8" PVC SDR-35. Rim minus invert at all 7 manholes is 8.2–10.9 ft, all inside the 7'-11' band.
+SEWER	SEWER SERVICES (SPECIFY SIZE)	EA	27	878.5 LF of service line; size not shown
+SEWER	CLEANOUT	EA	27	One cleanout block per service
+WATER	TIE INTO EXIST WATER	EA	1	12"x8" tapping sleeve and valve on the existing 12" main
+WATER	WATERMAIN ( 8" )	LF	1,488	Labelled 8" PVC C900 (not ductile iron)
+WATER	8" TEE	EA	1	At the Aster Ct intersection
+WATER	8" VALVE	EA	4	Gate-valve blocks; one is the tapping valve at the sleeve
+WATER	WATER SERVICES ( 1" )	EA	27	27 one-inch meter blocks; 803 LF of service line
+WATER	BLOW OFF ASSEMBLIES	EA	2	2" blow-offs
+WATER	FH	EA	3	FH-1 to 3, plus 55 LF of hydrant leads
+STORM	SINGLE DRYWELL	EA	6	DW-1 to 6, each labelled "SINGLE DEPTH DRYWELL"
+ROADS	ROAD SUBGRADE	SY	6,160	Asphalt outline (C-RD-ASPH), 55,437 SF. Checks against the asphalt hatch at 55,415 SF.
+ROADS	(SPECIFY SECTION) PAVING	SY	6,160	Same area as subgrade. No pavement section is drawn; candidate rows are 2/4", 3/6", etc.
+ROADS	CURB AND GUTTER	LF	3,030	Curb lip and back-of-curb lines hold exactly 2.0' apart everywhere. Curb type isn't shown, so ROLLEDCURBS is the other candidate.
+ROADS	(SPECIFY THICKNESS) SIDEWALKS	SF	12,949	Sidewalk only, with approach and ramp overlap taken out (see guidance below). Walk is a constant 5.0'. Choose 4" or 6".
+ROADS	APPROACH	SF	877	Approach area outside the sidewalk only (27 blocks at 16'×7'). Full area is 3,024 SF; see guidance.
+ROADS	PED RAMPS	EA	4	ADA dome blocks at the intersection
+ROADS	MAILBOX PAD	SF	32	One 8'×4' mailbox-cluster pad
+EXTRAS	SAW CUTTING	LF	36	"SAWCUT & MATCH EX. PVMT" at Hollis Rd
+EXTRAS	CONSTRUCTION ENTRANCE	EA	1	
+EXTRAS	INLET PROTECTION	EA	6	Every drywell label says "W/ INLET PROTECTION"
+EXTRAS	TYPE III BARRACADE	EA	1	Future extension, east end
+EXTRAS	STREET NAME SIGN	EA	2	Street-sign block; the drawing doesn't say whether a stop sign is included (the other candidate is STREET NAME / STOP SIGN)
+LOTS	TOTAL AREA - LOT GRADING	SF	339,082	Lot lines close to 339,082 SF, exactly matching the total of the 27 lot-area labels
+LOTS	LOT STRIPPING (SPECIFY DEPTH)	CY	18,838	Assumes 18"; no depth drawn. Treats lot grading as in scope by default for a subdivision.

@@ -77,7 +77,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .card:nth-child(3) {
+  .card:last-child:nth-child(odd) {
     grid-column: 1 / -1;
     max-width: 50%;
     margin: 0 auto;

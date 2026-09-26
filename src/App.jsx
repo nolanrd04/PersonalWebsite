@@ -8,6 +8,11 @@ import Tesseract from './pages/Tesseract';
 import YouTube from './pages/YouTube';
 import Resume from './pages/Resume';
 import PromptHub from './pages/PromptHub';
+import AiAgents from './pages/AiAgents';
+import DwgQuantityTakeoff from './pages/agents/DwgQuantityTakeoff';
+import ProposalGenerator from './pages/agents/ProposalGenerator';
+import PlanComparison from './pages/agents/PlanComparison';
+import ProjectManager from './pages/agents/ProjectManager';
 import './styles/globals.css';
 
 function App() {
@@ -24,6 +29,11 @@ function App() {
             <Route path="/youtube" element={<YouTube />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/projects/PromptHub" element={<PromptHub />} />
+            <Route path="/projects/AiAgents" element={<AiAgents />} />
+            <Route path="/projects/AiAgents/dwg-quantity-takeoff" element={<DwgQuantityTakeoff />} />
+            <Route path="/projects/AiAgents/proposal-generator" element={<ProposalGenerator />} />
+            <Route path="/projects/AiAgents/plan-comparison" element={<PlanComparison />} />
+            <Route path="/projects/AiAgents/project-manager" element={<ProjectManager />} />
           </Routes>
         </main>
         <Footer />
