@@ -12,7 +12,7 @@ export default function AiAgents() {
     {
       id: 2,
       title: 'Quick Proposal Generator',
-      description: 'Generates project proposals quickly from a few key inputs.',
+      description: 'Estimates how much a job would cost from a set of plans and company data.',
       link: '/projects/AiAgents/proposal-generator',
     },
     {
