@@ -9,8 +9,8 @@ export default function Resume() {
 
           <div className={styles.downloadSection}>
             <a
-              href="/assets/ResumeNolanDeschryver092526.pdf"
-              download="ResumeNolanDeschryver092526.pdf"
+              href="/assets/ResumeNolanDeschryver101526.pdf"
+              download="ResumeNolanDeschryver101526.pdf"
               className={styles.downloadButton}
             >
               Download PDF
@@ -19,7 +19,7 @@ export default function Resume() {
 
           <div className={styles.embedContainer}>
             <iframe
-              src="/assets/ResumeNolanDeschryver092526.pdf"
+              src="/assets/ResumeNolanDeschryver101526.pdf"
               title="Resume - Nolan DeSchryver"
               className={styles.pdfEmbed}
             />
@@ -28,7 +28,7 @@ export default function Resume() {
           <div className={styles.fallback}>
             <p>
               If the PDF doesn't display above, you can{' '}
-              <a href="/assets/ResumeNolanDeschryver092526.pdf" download="ResumeNolanDeschryver092526.pdf">
+              <a href="/assets/ResumeNolanDeschryver101526.pdf" download="ResumeNolanDeschryver101526.pdf">
                 download the resume here
               </a>
               .
